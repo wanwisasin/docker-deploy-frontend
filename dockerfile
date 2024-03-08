@@ -10,7 +10,7 @@ RUN npm install
  
 COPY ./ /app/
  
-ARG TARGET=ng-deplay
+ARG TARGET=ng-deploy
  
 RUN npm run ${TARGET}
  
